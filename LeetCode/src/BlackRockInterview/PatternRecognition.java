@@ -21,12 +21,21 @@ public class PatternRecognition {
 //      System.out.println(blobs);
 //    }
     PatternRecognition.doSomething("bc", "bcdefbcbebc|abcdebcfgsdf|cbdbesfbcy|1bcdef23423bc32");
-    System.out.println(PatternRecognition.patternRecogniser("bc","bcdefbcbebc" ));
+
+//    System.out.println(PatternRecognition.patternRecogniser("bc","bcdefbcbebc" ));
   }
 
   public static void doSomething(String pattern, String blobs) {
     String splitArray[] = blobs.split("\\|");
     System.out.println(PatternRecognition.toString(splitArray));
+    int total = 0;
+    for (int i = 0; i < splitArray.length ; i++) {
+//      System.out.println(splitArray[i]);
+      int count = patternRecogniser(pattern, splitArray[i]);
+      System.out.print(count + "|");
+      total = total + count;
+    }
+    System.out.print(total);
 
   }
 
@@ -48,6 +57,10 @@ public class PatternRecognition {
     }
     return count;
   }
+
+//  private int patternCounter(String str, String pattern) {
+//
+//  }
 
   public static String toString(Object[] array) {
     String res = "{";

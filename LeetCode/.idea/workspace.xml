@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431efd5-47e3-435d-9893-794284e04c04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FloodMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlackRockInterview/CashRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlackRockInterview/CashRegisterNice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlackRockInterview/PatternRecognition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlackRockInterview/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewQuestions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewQuestions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/BasicArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewQuestions/BasicArithmetic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/META-INF/InterviewQuestions.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewQuestions/META-INF/InterviewQuestions.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/Recursion/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterviewQuestions/Recursion/StringReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BasicArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BasicArithmetic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/MedianOfTwoSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/MedianOfTwoSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString$Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicArithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListAndNumbers/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAndNumbers/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListAndNumbers/MedianOfTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAndNumbers/MedianOfTwoSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/StringReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlackRockInterview/PatternRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackRockInterview/PatternRecognition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringProblems/Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/Easy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringProblems/SubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/SubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
@@ -97,19 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloodMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.FloodMap" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PatternRecognition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BlackRockInterview.PatternRecognition" />
       <module name="LeetCode" />
@@ -136,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringProblems.SubString" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PatternRecognition" />
+        <item itemvalue="Application.Easy" />
+        <item itemvalue="Application.SubString" />
         <item itemvalue="Application.CashRegister" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.Easy" />
-        <item itemvalue="Application.FloodMap" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +140,10 @@
       <workItem from="1571611440335" duration="7241000" />
       <workItem from="1571875908574" duration="880000" />
       <workItem from="1572107388467" duration="1042000" />
-      <workItem from="1572225661702" duration="12017000" />
+      <workItem from="1572225661702" duration="12316000" />
+      <workItem from="1572475944252" duration="295000" />
+      <workItem from="1572534845863" duration="6000" />
+      <workItem from="1572907921036" duration="7452000" />
     </task>
     <servers />
   </component>
