@@ -1,9 +1,6 @@
 package StringProblems;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Easy {
   public static String longestCommonPrefix(String[] strs) {
@@ -57,11 +54,32 @@ public class Easy {
     return -1;
   }
 
+
+  public static boolean isAnagramSortMethod(String s, String t) {
+    if (s.length() != t.length()) {
+      return false;
+    }
+    char[] sArray = s.toCharArray();
+    Arrays.sort(sArray);
+    char[] tArray = t.toCharArray();
+    Arrays.sort(tArray);
+    for (int i = 0; i < s.length() ; i++) {
+      if (tArray[i] != sArray[i]) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+
+
+
   public static void main(String[] args) {
     String str[] = {"aca", "cba"};
     System.out.println(longestCommonPrefix(str));
     int array[] = {1, 1, 3, 3, 5, 5, 5, 6};
     System.out.println(removeDuplicates(array));
     System.out.println(firstUniqChar("aab"));
+    System.out.println(isAnagramSortMethod("qbbd", "bqbd"));
   }
 }

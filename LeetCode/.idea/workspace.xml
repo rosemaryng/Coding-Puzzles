@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3431efd5-47e3-435d-9893-794284e04c04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlackRockInterview/PatternRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackRockInterview/PatternRecognition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringProblems/Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/Easy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/SubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/SubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternRecognition">
+  <component name="RunManager" selected="Application.Easy">
     <configuration name="CashRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BlackRockInterview.CashRegister" />
       <module name="LeetCode" />
@@ -119,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PatternRecognition" />
         <item itemvalue="Application.Easy" />
+        <item itemvalue="Application.PatternRecognition" />
         <item itemvalue="Application.SubString" />
         <item itemvalue="Application.CashRegister" />
         <item itemvalue="Application.ReverseString" />
@@ -143,7 +138,8 @@
       <workItem from="1572225661702" duration="12316000" />
       <workItem from="1572475944252" duration="295000" />
       <workItem from="1572534845863" duration="6000" />
-      <workItem from="1572907921036" duration="7452000" />
+      <workItem from="1572907921036" duration="7518000" />
+      <workItem from="1572957201202" duration="1686000" />
     </task>
     <servers />
   </component>
