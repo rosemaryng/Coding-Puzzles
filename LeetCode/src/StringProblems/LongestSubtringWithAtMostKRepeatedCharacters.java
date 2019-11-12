@@ -43,6 +43,38 @@ public class LongestSubtringWithAtMostKRepeatedCharacters {
     return max;
   }
 
+    public int lengthOfLongestSubstringKDistinctLinkedHashMap(String s, int k) {
+      int n = s.length();
+      if (n*k == 0) return 0;
+
+      // sliding window left and right pointers
+      int left = 0, right = 0;
+      // hashmap character -> its rightmost position
+      // in the sliding window
+      LinkedHashMap<Character, Integer> hashmap = new LinkedHashMap<Character, Integer>(k + 1);
+
+      int max_len = 1;
+
+      while (right < n) {
+        Character c = s.charAt(right);
+        if (hashmap.containsKey(c)) {
+          hashmap.remove(c); //insertion order DOES NOT CHANGE IF REINSERTED
+          hashmap.put(c, right++);
+        }
+
+        if (hashmap.size() > k) {
+          Map.Entry<Character, Integer> firstInserted = hashmap.entrySet().iterator().next();
+          hashmap.remove(firstInserted.getKey());
+          left = firstInserted.getValue() + 1; // move left pointer of the slidewindow
+
+        }
+
+        max_len = Math.max(max_len, right - left);
+      }
+      return max_len;
+    }
+
+
   public static void main(String[] args) {
 //    lengthOfLongestSubstringKDistinct("abaccc", 2);
     System.out.println(lengthOfLongestSubstringKDistinctImproved("aa",2 ));
