@@ -2,7 +2,7 @@ package StringProblems;
 
 import java.util.*;
 
-public class SubString {
+public class LengthOfLongestSubString {
 
   public static int lengthOfLongestSubstring(String s) {
     int length = s.length();
@@ -116,6 +116,8 @@ public class SubString {
     }
     return ans;
   }
+
+
   public static void main(String[] args) {
     System.out.println(lengthOfLongestSubstringImproved("adab"));
   }

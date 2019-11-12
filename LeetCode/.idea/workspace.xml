@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431efd5-47e3-435d-9893-794284e04c04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlackRockInterview/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlackRockInterview/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JPInterview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/LongestSubtringWithAtMostKRepeatedCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/MedianOfTwoSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/MedianOfTwoSortedArray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/Easy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/SubString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlackRockInterview/PatternRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackRockInterview/PatternRecognition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListAndNumbers/MedianOfTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListAndNumbers/MedianOfTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/SubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/LengthOfLongestSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +37,7 @@
   <component name="ProjectId" id="1SUHpYVVmHnnNLiQr2UZrqdQbhw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -46,22 +58,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Easy">
-    <configuration name="CashRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlackRockInterview.CashRegister" />
+  <component name="RunManager" selected="Application.LongestSubtringWithAtMostKRepeatedCharacters">
+    <configuration name="JPInterview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JPInterview" />
       <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BlackRockInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Easy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblems.Easy" />
+    <configuration name="LengthOfLongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringProblems.LengthOfLongestSubString" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -73,38 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternRecognition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlackRockInterview.PatternRecognition" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BlackRockInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlackRockInterview.ReverseString" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BlackRockInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblems.SubString" />
+    <configuration name="LongestSubtringWithAtMostKRepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringProblems.LongestSubtringWithAtMostKRepeatedCharacters" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StringProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedianOfTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListAndNumbers.MedianOfTwoSortedArray" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ListAndNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SpiralMatrix" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Easy" />
-        <item itemvalue="Application.PatternRecognition" />
-        <item itemvalue="Application.SubString" />
-        <item itemvalue="Application.CashRegister" />
-        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.LongestSubtringWithAtMostKRepeatedCharacters" />
+        <item itemvalue="Application.LengthOfLongestSubString" />
+        <item itemvalue="Application.SpiralMatrix" />
+        <item itemvalue="Application.MedianOfTwoSortedArray" />
+        <item itemvalue="Application.JPInterview" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +145,12 @@
       <workItem from="1572475944252" duration="295000" />
       <workItem from="1572534845863" duration="6000" />
       <workItem from="1572907921036" duration="7518000" />
-      <workItem from="1572957201202" duration="1686000" />
+      <workItem from="1572957201202" duration="1714000" />
+      <workItem from="1572980524242" duration="18183000" />
+      <workItem from="1573208174958" duration="3957000" />
+      <workItem from="1573347159724" duration="5996000" />
+      <workItem from="1573558713948" duration="3058000" />
+      <workItem from="1573583046045" duration="358000" />
     </task>
     <servers />
   </component>
