@@ -15,17 +15,43 @@ public class LRUCacheLinkedList {
     Node pointer = head;
     int i = 0;
     while (i <= size || pointer != null) {
-
+      if (pointer.key == key) {
+        return pointer.value;
+      }
+      pointer = pointer.next;
     }
-
+    return -1;
+  }
+  public Node getNode(int key) {
+    Node pointer = head;
+    int i = 0;
+    while (i <= size || pointer != null) {
+      if (pointer.key == key) {
+        return pointer;
+      }
+      pointer = pointer.next;
+    }
+    return pointer;
   }
 
   public void put(int key, int value) {
     if (size == 0) {
       head = new Node(key, value);
       current = head;
-    } else if (size < capacity) {
-
+      size++;
+    } else {
+      Node node = getNode(key);
+      if (node != null) {
+        node.removeNode();
+      } else {
+        if (size >= capacity) {
+          head = head.next;
+        } else {
+          size++;
+        }
+      }
+      current.next = new Node(key, value, current);
+      current = current.next;
     }
 
   }
@@ -40,6 +66,17 @@ public class LRUCacheLinkedList {
       this.value = value;
       this.prev = null;
       this.next = null;
+    }
+
+    public Node(int key, int value, Node prev) {
+      this.key = key;
+      this.value = value;
+      this.prev = prev;
+    }
+
+    public void removeNode() {
+      prev.next = next;
+      next.prev = prev;
     }
   }
 }
