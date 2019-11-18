@@ -15,32 +15,55 @@ public class ReOrderList {
 //
 //  Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 
-  /**
-   * Definition for singly-linked list.
-   * public class ListNode {
-   *     int val;
-   *     ListNode next;
-   *     ListNode(int x) { val = x; }
-   * }
-   */
-  class Solution {
-    public void reorderList(LinkNode head) {
-      LinkNode last = head;
-      int length;
-      Stack<LinkNode> stack = new Stack<>();
-      stack.add(head);
-      while (last.next != null) {
-        last = last.next;
-        stack.add(last);
-      }
-      LinkNode curr = head;
-      for (int i = 0; i < stack.size()/2 && curr.next != null; i++) {
-        LinkNode originalNext = curr.next;
+  public static void reorderList(ListNode head) {
 
-
-      }
-
-
+    ListNode last = head;
+    System.out.println(head);
+    Stack<Integer> stack = new Stack<>();
+    while (last != null) {
+      stack.add(last.val);
+      last = last.next;
     }
+    System.out.println("stack even? " + stack.size() % 2);
+    int size = stack.size();
+    if (size <= 2) return;
+    ListNode curr = head;
+    for (int i = 0; i < size/2; i++) {
+      ListNode originalNext = curr.next;
+      System.out.println("original " + originalNext);
+      curr.next = new ListNode(stack.pop());
+      System.out.println(curr);
+
+      curr = curr.next;
+      System.out.println("curr updated " + head);
+      curr.next = originalNext;
+      System.out.println("curr.next:" + curr.next);
+      curr = originalNext;
+      System.out.println("curr:" + curr);
+    }
+    if (size % 2 == 0) {
+      curr.next = new ListNode(stack.pop());
+      System.out.println("curr:" + curr);
+    } else {
+      curr.next = null;
+      System.out.println("curr:" + curr);
+    }
+
+
+  }
+
+  public static void main(String[] args) {
+    ListNode a = new ListNode(1);
+    ListNode b = new ListNode(2);
+    ListNode c = new ListNode(7);
+    ListNode d = new ListNode(4);
+//    ListNode e = new ListNode(2);
+//    LinkNode f = new LinkNode(3);
+    a.next = b;
+    b.next = c;
+    c.next = d;
+//    d.next = e;
+    reorderList(a);
+    System.out.println(a);
   }
 }

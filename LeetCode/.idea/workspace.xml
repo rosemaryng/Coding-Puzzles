@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431efd5-47e3-435d-9893-794284e04c04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReOrderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PhoneNumberMapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Arrays/FloodMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Arrays/FloodMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BasicArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BasicArithmetic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister$Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister$Change.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/ReverseString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice$Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice$Change.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlackRockInterview/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackRockInterview/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructureDesign/LRUCacheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructureDesign/LRUCacheLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JPInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JPInterview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReOrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReOrderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListAndNumbers/AddTwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/StringReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" afterDir="false" />
     </list>
@@ -107,13 +99,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextPermutation">
-    <configuration name="LengthOfLongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblems.LengthOfLongestSubString" />
+  <component name="RunManager" selected="Application.StringReverse">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbers" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringProblems.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubtringWithAtMostKRepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblems.LongestSubtringWithAtMostKRepeatedCharacters" />
+    <configuration name="MergeTwoSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.MergeTwoSortedList" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringProblems.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListAndNumbers.MedianOfTwoSortedArray" />
+    <configuration name="PhoneNumberMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PhoneNumberMapping" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ListAndNumbers.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.NextPermutation" />
+    <configuration name="ReOrderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.ReOrderList" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.SpiralMatrix" />
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.StringReverse" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LengthOfLongestSubString" />
-      <item itemvalue="Application.LongestSubtringWithAtMostKRepeatedCharacters" />
-      <item itemvalue="Application.MedianOfTwoSortedArray" />
-      <item itemvalue="Application.SpiralMatrix" />
-      <item itemvalue="Application.NextPermutation" />
+      <item itemvalue="Application.AddTwoNumbers" />
+      <item itemvalue="Application.ReOrderList" />
+      <item itemvalue="Application.MergeTwoSortedList" />
+      <item itemvalue="Application.StringReverse" />
+      <item itemvalue="Application.PhoneNumberMapping" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.LongestSubtringWithAtMostKRepeatedCharacters" />
-        <item itemvalue="Application.LengthOfLongestSubString" />
-        <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.MedianOfTwoSortedArray" />
+        <item itemvalue="Application.StringReverse" />
+        <item itemvalue="Application.PhoneNumberMapping" />
+        <item itemvalue="Application.MergeTwoSortedList" />
+        <item itemvalue="Application.ReOrderList" />
+        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +205,8 @@
       <workItem from="1573347159724" duration="5996000" />
       <workItem from="1573558713948" duration="3058000" />
       <workItem from="1573583046045" duration="358000" />
-      <workItem from="1573781731470" duration="3468000" />
+      <workItem from="1573781731470" duration="3742000" />
+      <workItem from="1574030770053" duration="11958000" />
     </task>
     <servers />
   </component>

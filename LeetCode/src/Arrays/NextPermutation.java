@@ -12,47 +12,47 @@ public class NextPermutation {
 
 
   public static void nextPermutation(int[] nums) {
-    int length = nums.length;
-    if (length <= 1) return;
-    int prev = nums[length - 1];
-    int i = length - 2;
-    while (i >= 0 && nums[i] >= nums[i + 1]) {
-      i--;
-    }
-    if (i >= 0) {
-      int j = nums.length - 1;
-      while (j >= 0 && nums[j] <= nums[i]) {
-        j--;
-      }
-      swap(nums, j, i);
-    }
-    for (int i = length - 2; i >= 0; i--) {
-      if (prev > nums[i]) {
-        nums[i + 1] = nums[i];
-        nums[i] = prev;
-        break;
-      }
-
-      boolean sorted = true;
-      int prev = nums[0];
-      for (int i = 1; i < nums.length; i++) {
-        if (prev > nums[i]) {
-          sorted = false;
-        }
-      }
-      if (sorted) {
-        prev = nums[length - 1];
-        for (int i = length - 2; i >= 0; i--) {
-          if (prev > nums[i]) {
-            nums[i + 1] = nums[i];
-            nums[i] = prev;
-            break;
-          }
-        }
-      } else {
-        Arrays.sort(nums);
-      }
-    }
+//    int length = nums.length;
+//    if (length <= 1) return;
+//    int prev = nums[length - 1];
+//    int i = length - 2;
+//    while (i >= 0 && nums[i] >= nums[i + 1]) {
+//      i--;
+//    }
+//    if (i >= 0) {
+//      int j = nums.length - 1;
+//      while (j >= 0 && nums[j] <= nums[i]) {
+//        j--;
+//      }
+//      swap(nums, j, i);
+//    }
+//    for (int j = length - 2; j >= 0; j--) {
+//      if (prev > nums[j]) {
+//        nums[j + 1] = nums[j];
+//        nums[j] = prev;
+//        break;
+//      }
+//
+//      boolean sorted = true;
+//      prev = nums[0];
+//      for (int j = 1; j < nums.length; j++) {
+//        if (prev > nums[j]) {
+//          sorted = false;
+//        }
+//      }
+//      if (sorted) {
+//        prev = nums[length - 1];
+//        for (int i = length - 2; i >= 0; i--) {
+//          if (prev > nums[i]) {
+//            nums[i + 1] = nums[i];
+//            nums[i] = prev;
+//            break;
+//          }
+//        }
+//      } else {
+//        Arrays.sort(nums);
+//      }
+//    }
   }
 
   private static void swap(int[] nums, int j, int i) {
