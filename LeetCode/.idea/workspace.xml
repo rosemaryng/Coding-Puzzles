@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431efd5-47e3-435d-9893-794284e04c04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PhoneNumberMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ContinuousSubArrarySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/BasicOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/VerticalOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Permutations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReOrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReOrderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListAndNumbers/AddTwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/StringReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" afterDir="false" />
     </list>
@@ -99,13 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringReverse">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbers" />
+  <component name="RunManager" selected="Application.Permutations">
+    <configuration name="ContinuousSubArrarySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.ContinuousSubArrarySum" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.MergeTwoSortedList" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MoveZeroes" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Permutations" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,19 +139,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReOrderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.ReOrderList" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddTwoNumbers" />
-      <item itemvalue="Application.ReOrderList" />
-      <item itemvalue="Application.MergeTwoSortedList" />
       <item itemvalue="Application.StringReverse" />
       <item itemvalue="Application.PhoneNumberMapping" />
+      <item itemvalue="Application.MoveZeroes" />
+      <item itemvalue="Application.ContinuousSubArrarySum" />
+      <item itemvalue="Application.Permutations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.ContinuousSubArrarySum" />
+        <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.StringReverse" />
         <item itemvalue="Application.PhoneNumberMapping" />
-        <item itemvalue="Application.MergeTwoSortedList" />
-        <item itemvalue="Application.ReOrderList" />
-        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +200,8 @@
       <workItem from="1573558713948" duration="3058000" />
       <workItem from="1573583046045" duration="358000" />
       <workItem from="1573781731470" duration="3742000" />
-      <workItem from="1574030770053" duration="11958000" />
+      <workItem from="1574030770053" duration="12025000" />
+      <workItem from="1574092664685" duration="21548000" />
     </task>
     <servers />
   </component>
