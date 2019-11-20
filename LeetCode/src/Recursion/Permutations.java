@@ -54,7 +54,6 @@ public class Permutations {
 
     return false;
   }
-}
 
   public static void main(String[] args) {
     Permutations permClass = new Permutations();
