@@ -1,4 +1,4 @@
 package BinaryTrees;
 
-public class LongestPath {
-}
+//public class LongestPath {
+//}
