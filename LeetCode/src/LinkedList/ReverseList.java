@@ -40,12 +40,12 @@ public class ReverseList {
     }
     ListNode con = prev, tail = cur; // The two pointers that will fix the final connections.
 
-    ListNode third = null; // Iteratively reverse the nodes until n becomes 0.
+    ListNode originalNext = null; // Iteratively reverse the nodes until n becomes 0.
     while (n > 0) {
-      third = cur.next;
+      originalNext = cur.next;
       cur.next = prev;
       prev = cur;
-      cur = third;
+      cur = originalNext;
       n--;
     }
 

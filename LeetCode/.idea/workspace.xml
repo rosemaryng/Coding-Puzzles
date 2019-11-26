@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431efd5-47e3-435d-9893-794284e04c04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ContinuousSubArrarySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/BasicOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/VerticalOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/PopulatingNextRightPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/AlienDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/FlattenMultiLevelLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAndSearching/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAndSearching/TopKFrequentWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" afterDir="false" />
     </list>
@@ -93,22 +97,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Permutations">
+  <component name="RunManager" selected="Application.ValidParentheses">
     <configuration name="ContinuousSubArrarySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ContinuousSubArrarySum" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MoveZeroes" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -133,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PhoneNumberMapping" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.ReverseList" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,33 +137,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.StringReverse" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.StringCompression" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidParentheses" />
+      <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringReverse" />
-      <item itemvalue="Application.PhoneNumberMapping" />
-      <item itemvalue="Application.MoveZeroes" />
       <item itemvalue="Application.ContinuousSubArrarySum" />
       <item itemvalue="Application.Permutations" />
+      <item itemvalue="Application.StringCompression" />
+      <item itemvalue="Application.ReverseList" />
+      <item itemvalue="Application.ValidParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.ContinuousSubArrarySum" />
-        <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.StringReverse" />
-        <item itemvalue="Application.PhoneNumberMapping" />
       </list>
     </recent_temporary>
   </component>
