@@ -71,9 +71,6 @@ public class Easy {
     return true;
   }
 
-
-
-
   public static void main(String[] args) {
     String str[] = {"aca", "cba"};
     System.out.println(longestCommonPrefix(str));
