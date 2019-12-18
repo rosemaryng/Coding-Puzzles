@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3431efd5-47e3-435d-9893-794284e04c04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/GroupAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MinimumSlidingWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MultiplyString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/OneEditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FirstNLastPos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/AllTreePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/BinaryTreeToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/BuildTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/CountUniValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTrees/FlipEquavalent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design/FlattenNestedListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/CloneGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/IntersectionOfTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/RandomPointerIDKWIM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/BasicArithmetic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/META-INF/InterviewQuestions.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/Recursion/StringReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Arrays/Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Arrays/Easy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Arrays/FloodFill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Arrays/FloodFill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Arrays/FloodMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Arrays/FloodMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BasicArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BasicArithmetic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister$Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister$Change.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/CashRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/PatternRecognition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/BlackRockInterview/ReverseString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice$Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice$Change.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/CashRegisterNice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/MedianOfTwoSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ListAndNumbers/MedianOfTwoSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Recursion/StringReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/StringProblems/Easy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/BackSpaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/BackSpaceStringCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTrees/AlienDictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTrees/Traversals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTrees/Traversals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/Easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/Easy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/minWIndowSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/minWIndowSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Second Year/Software engineering design/220_tut6_lsn918/src/main/java/ic/doc/ReverseCalculatorModel.java" afterDir="false" />
     </list>
@@ -250,7 +209,7 @@
       <workItem from="1576028207508" duration="842000" />
       <workItem from="1576115975858" duration="1281000" />
       <workItem from="1576458608865" duration="541000" />
-      <workItem from="1576545669862" duration="3067000" />
+      <workItem from="1576545669862" duration="3580000" />
     </task>
     <servers />
   </component>
