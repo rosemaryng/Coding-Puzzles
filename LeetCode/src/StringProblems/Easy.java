@@ -71,6 +71,26 @@ public class Easy {
     return true;
   }
 
+  public int lengthOfLastWord(String s) {
+    int length = 0;
+    int lastLength = 0;
+    char prevChar = ' ';
+    for (int i = 0; i < s.length(); i++) {
+      if (s.charAt(i) == ' ') {
+        if (prevChar != ' ') {
+          lastLength = length;
+        }
+        length = 0;
+
+      } else {
+        length++;
+        lastLength = length;
+      }
+
+    }
+    return lastLength;
+  }
+
   public static void main(String[] args) {
     String str[] = {"aca", "cba"};
     System.out.println(longestCommonPrefix(str));
