@@ -19,13 +19,29 @@ public class SequentialDigits {
   }
 
 
-  public List<Integer> seqIntGenerator(int low, int high) {
+  public static List<Integer> seqIntGenerator(int low, int high) {
+    List<Integer> list = new ArrayList<>();
     int lowRange = (int) Math.pow(low, 0.1);
-    int highRange = (int) Math.pow(high, 0.1);
-    for (int i = lowRange; i < highRange ; i++) {
+    System.out.println(Math.pow(low, 0.1));
 
+    int highRange = (int) Math.pow(high, 0.1);
+    System.out.println(Math.pow(20, 0.1));
+    for (int i = lowRange; i <= highRange ; i++) {
+      System.out.println(i);
+      for(int j = 1; j <= 10 - i; j++) {
+//        System.out.println(j);
+        StringBuilder validDigit = new StringBuilder();
+        for (int z = 0; z < lowRange; z++) {
+          validDigit.append(j + z);
+//          System.out.println(validDigit);
+        }
+        int digit = Integer.parseInt(validDigit.toString());
+//        System.out.println(digit);
+//        System.out.println(validDigit);
+        list.add(Integer.parseInt(validDigit.toString()));
+      }
     }
-    return null;
+    return list;
   }
 
 
@@ -61,7 +77,9 @@ public class SequentialDigits {
     return nextSeqDigit;
   }
   public static void main(String[] args) {
-    System.out.println(nextSeqDigit(12));
+    System.out.println(seqIntGenerator(1,20));
+    System.out.println("mathpow: " + Math.ceil(Math.pow(9, 0.1)));
+//    System.out.println(nextSeqDigit(12));
 //    System.out.println(sequentialDigits(0,100));
   }
 }
