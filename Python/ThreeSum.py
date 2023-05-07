@@ -1,4 +1,5 @@
 class ThreeSum:
+    # brute force!
     def twoSum_1(self, nums: List[int], target: int) -> List[int]:
         curr_sum = target
         nums_len = len(nums)
@@ -16,3 +17,20 @@ class ThreeSum:
             if required_target in appeared_nums:
                 return [appeared_nums[required_target], i]
             appeared_nums[num] = i
+
+    def twoSum_II(self, numbers: List[int], target: int) -> List[int]:
+        res = []
+        start = 0
+        end = len(numbers) - 1
+        while end > start:
+            required_num = target - numbers[end]
+            if numbers[start] == required_num:
+                return [start + 1, end + 1]
+            elif numbers[start] < required_num:
+                start += 1
+            else:
+                end -= 1
+        return res
+
+
+    
